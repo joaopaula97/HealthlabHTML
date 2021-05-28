@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css">
         <title>Projeto Healhlab</title>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" rel="stylesheet">
 
     </head>
     <body>
@@ -17,12 +18,12 @@
                 </div>
                 <div class="icones_superiores">
                     <ul>
-                        <li><a href=""><img src="./img/notificacao_1.png"></img></a></li>
+                        <li><a href="./notificacao.html"><img src="./img/notificacao_1.png"></img></a></li>
                         <li><a href=""><img src="./img/user__1__3.png"></a></li>                        
                     </ul>
                 </div>
                 <div class="titulo">
-                    <h1> Início </h1>
+                    <h1> Relatórios Gerenciais </h1>
                 </div>
             </div>
             <div class="header-2">                
@@ -30,36 +31,259 @@
                     <div class="menus">
                         <ul>
                             <li><a href="./index.html">Inicio</a></li>
-                            <li><a href="">Relatórios Gerenciais</a></li>
-                            <li><a href="">Cadastro de exames ocupacionais</a></li>
-                            <li><a href="">Afastamento pelo INSS</a></li>
-                            <li><a href="">Cronograma de ações de saúde</a></li>
-                            <li><a href="">Agendamento de exames / consultas ocupacionais</a></li>
-                            <li><a href="">Perfil epidemiológico</a></li>
+                            <li><a href="./relatorio_gerencial.html">Relatórios Gerenciais</a></li>
+                            <li><a href="./cadastro exame.html">Cadastro de exames ocupacionais</a></li>
+                            <li><a href="./inss.html">Afastamento pelo INSS</a></li>
+                            <li><a href="./calendario.html">Cronograma de ações de saúde</a></li>
+                            <li><a href="./agendamento.html">Agendamento de exames / consultas ocupacionais</a></li>
+                            <li><a href="./perfil epidemiologico.html">Perfil epidemiológico</a></li>
                         </ul>
                     </div>
                 </div>
 
             </div>
-           <div class="header-4">
-               <div class="consultas">
-
-               </div>
-           </div> 
+            <div class="tabelinha">
+            <div class="relatorio">
+                <h3>Relatório Gerencial</h3>
+                <table id="minhaTabela">
+                    <thead>
+                      <tr>
+                        <th>Matrícula</th>
+                        <th>Nome</th>
+                        <th>Exame</th>
+                        <th>Tipo</th>
+                        <th>Data</th>
+                        <th>Selecionar</th>
+                    
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>11253654</td>
+                        <td>Lurdes Alcaide</td>
+                        <td>1205</td>
+                        <td>Admissional</td>
+                        <td>21/04/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>
+                      </tr>
+                      <tr>
+                        <td>88965423</td>
+                        <td>Robert Barcelos</td>
+                        <td>1125</td>
+                        <td>Mudança de Função</td>
+                        <td>02/05/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11236548</td>
+                        <td>Rogério Festas</td>
+                        <td>1126</td>
+                        <td>Periódico</td>
+                        <td>13/06/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11452365</td>
+                        <td>Mercês Bandeira</td>
+                        <td>1105</td>
+                        <td>Demissional</td>
+                        <td>18/07/2018</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>14562535</td>
+                        <td>Iriana Farinha</td>
+                        <td>1316</td>
+                        <td>Admissional</td>
+                        <td>06/08/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>55623548</td>
+                        <td>Kimberly Figueira</td>
+                        <td>1325</td>
+                        <td>Admissional</td>
+                        <td>20/12/2018</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>14568752</td>
+                        <td>Anaísa Olivares</td>
+                        <td>1366</td>
+                        <td>Retorno ao trabalho</td>
+                        <td>24/09/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>55465213</td>
+                        <td>Tiago Carvalhoso</td>
+                        <td>1205</td>
+                        <td>Periódico</td>
+                        <td>01/05/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11236548</td>
+                        <td>Céline Henriques</td>
+                        <td>1105</td>
+                        <td>Admissional</td>
+                        <td>03/05/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11456879</td>
+                        <td>Wanda Beatriz</td>
+                        <td>1818</td>
+                        <td>Demissional</td>
+                        <td>21/08/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11236548</td>
+                        <td>Gustavo Lima</td>
+                        <td>1306</td>
+                        <td>Admissional</td>
+                        <td>13/07/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>12354687</td>
+                        <td>Paula Lima</td>
+                        <td>1105</td>
+                        <td>Avaliação PCD</td>
+                        <td>13/09/2018</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11546489</td>
+                        <td>Thomás Turbando</td>
+                        <td>1325</td>
+                        <td>Avaliação Ocupacional</td>
+                        <td>06/09/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11354687</td>
+                        <td>Patricia Moura</td>
+                        <td>2259</td>
+                        <td>Demissional</td>
+                        <td>20/09/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11546879</td>
+                        <td>Erick Furtado</td>
+                        <td>1136</td>
+                        <td>Retorno ao Trabalho</td>
+                        <td>01/06/2021</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11346587</td>
+                        <td>Larissa Manoela</td>
+                        <td>2009</td>
+                        <td>Mudança de Função</td>
+                        <td>16/06/2018</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>16359845</td>
+                        <td>João Ferreira</td>
+                        <td>1105</td>
+                        <td>Periódico</td>
+                        <td>21/04/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>44563214</td>
+                        <td>Luiza Numes</td>
+                        <td>1354</td>
+                        <td>Admissional</td>
+                        <td>31/12/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>13546879</td>
+                        <td>João Guzela</td>
+                        <td>1368</td>
+                        <td>Avaliação PCD</td>
+                        <td>16/09/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>14578965</td>
+                        <td>Elaine Antunes</td>
+                        <td>1205</td>
+                        <td>Avaliação Ocupacional</td>
+                        <td>15/05/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>26532145</td>
+                        <td>Ramon Dino</td>
+                        <td>1125</td>
+                        <td>Demissional</td>
+                        <td>16/07/2018</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>65895463</td>
+                        <td>Aline ferreira</td>
+                        <td>1125</td>
+                        <td>Retorno ao Trabalho</td>
+                        <td>13/05/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>11245687</td>
+                        <td>Felipe Pacheco</td>
+                        <td>1126</td>
+                        <td>Mudança de Função</td>
+                        <td>06/07/2019</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>59854625</td>
+                        <td>Giovanna Morais</td>
+                        <td>1164</td>
+                        <td>Periódico</td>
+                        <td>23/09/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>96548521</td>
+                        <td>Patrick Maia</td>
+                        <td>1198</td>
+                        <td>Demissional</td>
+                        <td>01/01/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                      <tr>
+                        <td>25698745</td>
+                        <td>Amanda Nogueira</td>
+                        <td>1125</td>
+                        <td>Admissional</td>
+                        <td>20/04/2020</td>
+                        <td><input type="checkbox" id=Matrícula></td>                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="botoes">
+                <ul>
+                    <li class="botaokit"><a href="./guia de atendimento.html">GERAR KIT DE ATENDIMENTO</a></li>
+                    <li class="botaoguia"><a href="./agendamento.html">GERAR GUIA DE AGENDAMENTO</a></li>
+                    <li class="botaoemail" id="email"><a href="">GERAR E-MAIL DE WORKFLOW</a></li>
+                </ul>
+            </div>
+        </div>
         </main>
-        
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
-        </header>
-        <footer>
+                <footer>
             <div class="logo-rodape">
                 <img src="./img/Health-rodape.png">
             </div>
             <h6>Copyright © 2021 Health-ânima. Todos os direitos reservados.</h6>
             
         </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+        </header>
+
+        <script>
+        $(document).ready(function(){
+      $('#minhaTabela').DataTable({
+        	"language": {
+                "lengthMenu": "Mostrando _MENU_ registros por página",
+                "zeroRecords": "Nada encontrado",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "Nenhum registro disponível",
+                "infoFiltered": "(filtrado de _MAX_ registros no total)",
+                "Previous": "Anterior",
+                "Next": "Próximo",
+                "search": "Buscar:"
+            }
+        });
+  });
+            </script>
 
     </body>
 </html>

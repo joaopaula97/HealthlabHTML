@@ -5,3 +5,4 @@ $('.slider').slick({
     fade: true,
     cssEase: 'linear'
   });
+  

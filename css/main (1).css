@@ -1,0 +1,287 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-principal {
+    width: 100%;
+    background-color: rgba(44, 64, 241, 1);
+    height: 50px;
+
+}
+.logo{
+    height: 1;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30;
+}
+main {
+    width: 1500px;
+    position: relative;
+    margin: 0 auto;
+}
+.header-1 {
+    background-color: rgba(44, 64, 241, 1);
+    height: 50px;
+}
+.titulo {
+    padding: 10px;
+    color: white;
+    margin: -26px;
+    padding-left: 600;
+}
+.icones_superiores ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 20px;
+    padding-inline-start: 0px;
+}
+.icones_superiores ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+
+}
+.icones_superiores {
+    float: right;   
+}
+.icones_superiores img {
+    max-width:30px;
+    max-height:30px;
+
+}
+.menu {
+    height: 100%;
+    width: 20%;
+}
+.menus{
+    padding-top: 50px;
+}
+.menus ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+
+}
+.menus ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 75%;
+
+
+}
+.menus ul li a{
+    text-decoration: none;
+    font-size: 15;
+    color: black;
+
+}
+.menus ul li a:hover{
+    color: blue;
+}
+.menus ul li:hover{
+    background: linear-gradient(180deg, rgba(41, 144, 239, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(4px);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: blue;
+}
+.header-3 {
+    width: 30%;
+    float: right;
+}
+.header-3 img{
+    width: 350;
+    height: 350;
+}
+
+button.slick-prev{
+    position: absolute;
+    bottom: -340;
+    background-image: url(../img/previous2.png);
+    width: 30;
+    height: 30;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    right: 411px;
+    z-index: 9999;
+}
+button.slick-prev img{
+    height: 30;
+    width: 30;
+}
+button.slick-next{
+    right: 9px;
+    position: absolute;
+    background-image: url(../img/next2.png);
+    width: 30px;
+    height: 30px;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    top: 410px;
+    z-index: 9999;
+}
+
+button.slick-next img{
+    height: 30;
+    width: 30;
+}
+ul.slick-dots {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 11px;
+    margin-inline-end: 12px;
+    padding-inline-start: 43px;
+}
+.slider ul li {
+    display: inline-block;
+    margin-right: 4px;
+    list-style: none;
+
+}
+.slider img{
+    position: relative;
+    left: 70px;
+    top: -117px;
+    z-index: 999;
+    opacity: 1;
+    border: solid 2px;
+    border-color: gray;
+    margin: 1px;
+}
+button.slick-dots ul li{
+    color: white;
+}
+button {
+    font: 400 0px Arial;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #e4e4e4;
+    padding-left: 270;
+    position: relative;
+    margin: 0 auto;
+    bottom: -800px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30;
+    position: relative;
+    top: 10px;
+    right: -330px;
+}
+.logo-rodape{
+    height: 70;
+}
+footer h6{
+    margin-inline-start: 215px;
+    position: relative;
+    top: -32px;
+    right: -260px;
+}
+
+form {
+    
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+h6{
+    margin-left: 300px;
+   margin-bottom: -20px;
+}
+
+
+.inss {
+    width: 200px;
+    clear: both;
+  display: inline-block;
+}
+  
+  .inss input {
+    width: 100%;
+    
+  }
+  .inss2 {
+      margin-left: 500px;
+      margin-top: -530px;
+width: 200px;
+position: relative;
+display: inline-block;
+    }
+  .inss2 input {
+    width: 100%;
+   
+    
+  }
+
+  .enviarbotao {
+    border: none;
+    color: rgb(243, 237, 237);
+    background-color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .agendamento {
+    width: 200px;
+    clear: both;
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+}
+  
+  .agendamento input {
+    width: 100%;
+    
+  }
+
+  .agendamento2 {
+    width: 200px;
+    clear: both;
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+}
+  
+  .agendamento2 input {
+    width: 100%;
+    
+  }
+
+
+  .tipoexame input{
+
+  }
+
+  .calendarioagenda{
+      margin-left: 500px ;
+      margin-top: -400px;
+    
+  }

@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cadastro exame.css">
+        <title>Projeto Healhlab</title>
+
+    </head>
+    <body>
+        <header class="menu-principal">
+            <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/Health.png">
+                </div>
+                <div class="icones_superiores">
+                    <ul>
+                        <li><a href="./notificacao.html"><img src="./img/notificacao_1.png"></img></a></li>
+                        <li><a href=""><img src="./img/user__1__3.png"></a></li>                        
+                    </ul>
+                </div>
+                <div class="titulo">
+                    <h1> Cadastro de exames </h1>
+                </div>
+            </div>
+            <div class="header-2">                
+                <div class="menu">
+                    <div class="menus">
+                        <ul>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li><a href="./relatorio_gerencial.html">Relatórios Gerenciais</a></li>
+                            <li><a href="./cadastro exame.html">Cadastro de exames ocupacionais</a></li>
+                            <li><a href="./inss.html">Afastamento pelo INSS</a></li>
+                            <li><a href="./calendario.html">Cronograma de ações de saúde</a></li>
+                            <li><a href="./agendamento.html">Agendamento de exames / consultas ocupacionais</a></li>
+                            <li><a href="./perfil epidemiologico.html">Perfil epidemiológico</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            
+        
+
+            <div class="barra">
+                <label class=""><strong>Selecione o Exame:</strong></label><br>
+                <select style="width: 200; height: 30;">
+                    <option selected disabled value="" >Selecione</option>
+                    <option>Admissional</option>
+                    <option>Periódico</option>
+                    <option>Mudança de função</option>
+                    <option>Retorno ao trabalho</option>
+                    <option>Demissional</option>
+                    <option>Avaliação ocupacional</option>
+                    <option>Avaliação de enquadramento de PCD</option>
+                    <select>
+            </div>
+                    <div class="preencher1"> 
+                        <label><strong>Nome do Empregador:</strong></label><br>
+                        <input type="text" name="nome" id="nome" style="width: 200; height: 30;" required>
+                    </div>
+                    
+                    <div class="preencher1">
+                        <label><strong>Documento de identidade:</strong></label><br>
+                        <input type="text" name="identidade" id="identidade" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher1">
+                        <label><strong>Cargo/Função:</strong></label><br>
+                        <input type="text" name="Cargo" id="Cargi" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher1">
+                        <label><strong>Apto para a função?</strong>  </label><br><br>
+                            <input type="radio" name="apto" id="Sim" style="width: 30; height: 20;" >Sim<br><br>
+                        <label>
+                            <input type="radio" name="apto" id="Não"style="width: 30; height: 20;" >Não
+                        </label>
+                    </div>
+        
+                    <div class="preencher2">
+                        <label><strong>Medico cordenador:</strong></label><br>
+                        <input type="text" name="medico" id="medico" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher2">
+                        <label><strong>Data do exame:</strong></label><br>
+                        <input type="date" name="data" id="data" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher2">
+                        <label><strong>Tipo de exame:</strong></label><br>
+                        <input type="text" name="exame" id="exame" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher2">
+                        <label><strong>Riscos ocupacionais:</strong></label><br>
+                        <input type="text" name="riscos" id="riscos" style="width: 200; height: 30;" required>
+                    </div>
+        
+                    <div class="preencher2">
+                        <label><strong>Requerimeto / benefício:</strong></label><br>
+                        <input type="text" name="requerimento" id="requerimento" style="width: 200; height: 30;" required>
+                    </div><br>
+        
+                    <button class="botao" type="submit">Enviar</button>
+        
+        </main>
+        <footer>
+            <div class="logo-rodape">
+                <img src="./img/Health-rodape.png">
+            </div>
+            <h6>Copyright © 2021 Health-ânima. Todos os direitos reservados.</h6>
+            
+        </footer>
+        
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+        </header>
+
+    </body>
+</html>
